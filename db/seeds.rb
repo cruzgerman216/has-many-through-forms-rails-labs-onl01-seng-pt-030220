@@ -5,5 +5,5 @@
 #
 category_1 = Category.create(name: "category")
 post_1 = Post.create(title: "Feeling Groovy", content: "I'm feeling so groovy")
-post_1.categories << category_1 
+post_1.categories << category_1
 user = User.create(username: "john", email: "hello@gmail.com")
