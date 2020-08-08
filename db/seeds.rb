@@ -3,5 +3,6 @@
 #
 # Examples:
 #
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+category_1 = Category.create(name: "category")
+post_1 = Post.create(title: "Feeling Groovy", content: "I'm feeling so groovy")
+post_1.categories << category_1 
